@@ -43,21 +43,21 @@ Ved å bruke kommandoen \texttt{IQR} i R får jeg inter-kvartil og \texttt{sd} g
 \end{align*}
 
 \subsection*{d}
+
 Ved å bruke kommandoene \texttt{qqnorm()} i R får jeg inter-kvartil og \texttt{sd()} gir meg standardavvik.
 
 \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{Rplots.pdf}
-		\caption{Figuren viser målte verdier mot standardavviket vi fikk tidligere i oppgaven.
-         Ved normalfordelingen burde en forvente en rett strek. Det er så og si det vi ser.
-         Og en burde forvente at det er flere datapunkter ved x = 0.}
+		\caption{Figuren viser målte verdier mot standardavviket vi fikk tidligere i oppgaven}
 		\label{fig:QQ}
 \end{figure}
-Plottet indikerer hvordan de målte verdiene har fordelt seg i forhold til standardavviket. Igjen ser man at de fleste datapunktene legger seg rundt gjennomsnittet, men i tillegg får man et inntrykk av hvordan målverdiene avviker fra den teoretiske perfekte normalfordelingen (over eller under den lineære funksjonen).
+Plottet indikerer hvordan de målte verdiene har fordelt seg i forhold til standardavviket. Igjen ser man at de fleste datapunktene legger seg rundt gjennomsnittet, men i tillegg får man et inntrykk av hvordan målverdiene avviker fra den teoretiske perfekte normalfordelingen (over eller under den lineære funksjonen). Man kan se at dataen passer ganske bra til en normalfordeling.
 
 \subsection*{e}
 
 Standardiserte verdien til BMR:
+Den standardiserte verdien, eller 'z-score', antyder hvor mange standardavvik en målverdi er fra gjennomsnittet. Altså
 
 \begin{align*}
     z = \frac{x - \mu}{\sigma}
@@ -67,73 +67,44 @@ For BMR = 0.8 mL O$_2$/min gir det:
 \begin{align*}
     z = \frac{x - \mu}{\sigma} = \frac{0.8 - 0.8485003}{0.1134001} \approx -0.43
 \end{align*}
-Den standardiserte verdien til x, sier noe om hvor mange standardavvik x ligger
-unna forventningsverdien. For 0.8 er det -0.43 standardavvik.
+Målverdien på $0.8\mathrm{mL}\frac{o_2}{\mathrm{m}}$ er $-0.43$ standardavvik unna gjennomsnittet.
 
-\subsection*{f \& g}
-Her står det ikke at jeg trenger å bruke R, så jeg bruker python! Vi definerer gaussian funksjonen og bruker numpy sin innebygde funksjon integrate
-til å definere integralet! Dette gir:
+\subsection*{f}
 
+Ved å bruke kommandoen \texttt{pnorm()} i R får jeg prosentilen til en BMR på $0.6$
 \begin{align*}
-    p(x<0.6) &= 0.013949646902606319
-    \\
-    p(x>1.0) &= 0.09004947601825308
+    p(x<0.6) = 0.01421294
 \end{align*}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\subsection*{g}
+På samme måte som i forrige oppgave bruker jeg \texttt{pnorm()}, men denne gangen tar jeg én og trekker i fra sannsynligheten for å finne ut sannsynligheten for at en fink har en BMR som er OVER dette.)
+\begin{align*}
+    p(x>1.0) = 0.09077876
+\end{align*}
 
 \pagebreak
 \section{}
 
 
 \subsection*{a}
-
-Kategoriske variabler er variabler som sier noe om gruppering objektet en måler på.
-\\
-Kvantitativ variabler er variabler som representer variabler med en diskre tallverdi.
-\\
-kvalitativ variabler er variabler som har kontinuerlige verdier. 
-\\
-sex og population er kvantitativ.
-\\
-cpmg og tpmg kvalitativ.
+Kvantitative variabler er variabler som har en konkret tallverdi. Dette tillater at flere nyttige numeriske operasjoner kan utføres på et datasett av kvantitative variabler. Konsentrasjon av kortisol og testosteron er også kvantitative\\
+Kvalitative variabler derimot kan være mer abstrakte. Som for eksempel øyenfarge.\\
+Kategoriske variabler er alltid medlemmer av et gitt sett av mulige verdier. Innen vitenskap er det for eksempel fortsatt slik at nesten utelukkende alle dyr kun kan ha ett av to kjønn: han (maskulin) eller hun (feminin). Kjønn er altså et eksempel på en kategorisk variabel. I dette tilfellet er også populasjon kategorisk når den kun deler populasjonen inn i ulv som er hardt jaktet eller ikke. Legg merke til at denne også er en kvalitativ variabel. Kategoriske variabler kan være enten kvalitative eller kvantitative.
 
 \subsection*{b}
+
+Ved å bruke kommandoene \texttt{pie(table(variabel))} i R får jeg et kakediagram over de kategoriske variablene. 
 
 \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{wolf_sex.png}
-		\caption{Sirka halvparten er menn. Sirka 2 tredjedeler er fra en tungt jaktet populasjon. Det er jo kult?}
+		\caption{kjønnsfordelingen blandt ulvepopulasjonen er svært jevnt fordelt, hvilket nesten alltid er tilfellet pga naturlig seleksjon. Omtrent to tredeler er tungt jaktet}
 		\label{fig:sex_population}
 \end{figure}
 
 \subsection*{c}
 
-ok... se kode... Misforsto jeg denne deloppgaven?
+Denne oppgaven løser jeg ved å bruke kommandoene \texttt{wolf.lett <- wolf[wolf[,"population"]==1,]} og \texttt{wolf.tungt <- wolf[wolf[,"population"]==2,]}, slik jeg ble fortalt i oppgaven.
 
 \subsection*{d}
 

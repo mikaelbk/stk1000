@@ -1,20 +1,16 @@
+# importerer data
 data ="http://www.uio.no/studier/emner/matnat/math/STK1000/data/wolves.txt"
+# setter dataen inn i 'wolf'
 wolf <- read.table(data,header=TRUE)
-# print(c(wolf))
-# print(wolf$sex)
-# print(wolf$population)
-# print(wolf$tpmg)
-# print(wolf$cpmg)
 summary(wolf)
 
 
-
 #BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-# Give the chart file a name.
+# gjør klar et plot
 png(file = "wolf_sex.pdf")
-#MAKING TWO COLUMNS
+# her lages det to kolonner
 par(mfrow=c(1,2)) 
-# Create the histogram.
+# lager et 
 pie(table(wolf$sex))
 # Create the histogram.
 pie(table(wolf$population))

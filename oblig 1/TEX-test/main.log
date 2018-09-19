@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.4.16)  19 SEP 2018 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.4.16)  19 SEP 2018 22:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -2603,146 +2603,146 @@ e 22.
 <Rplots.pdf, id=35, pagebox=cropbox, 505.89pt x 505.89pt>
 File: Rplots.pdf Graphic file (type pdf)
 <use Rplots.pdf>
-Package pdftex.def Info: Rplots.pdf  used on input line 50. on input line 50.
+Package pdftex.def Info: Rplots.pdf  used on input line 51. on input line 51.
 Package pdftex.def Info: Requested size: 350.99762pt x 351.002pt on input line 
-50.
+51.
 
 [3] [4 <./Rplots.pdf>] [5]
-<wolf_sex.png, id=65, 698.61pt x 269.005pt>
+<wolf_sex.png, id=68, 698.61pt x 269.005pt>
 File: wolf_sex.png Graphic file (type png)
 <use wolf_sex.png>
-Package pdftex.def Info: wolf_sex.png  used on input line 129. on input line 12
-9.
+Package pdftex.def Info: wolf_sex.png  used on input line 100. on input line 10
+0.
 Package pdftex.def Info: Requested size: 272.99881pt x 105.12085pt on input lin
-e 129.
-<wolf_sammenlign.pdf, id=66, pagebox=cropbox, 481.8pt x 481.8pt>
+e 100.
+<wolf_sammenlign.pdf, id=69, pagebox=cropbox, 481.8pt x 481.8pt>
 File: wolf_sammenlign.pdf Graphic file (type pdf)
 <use wolf_sammenlign.pdf>
-Package pdftex.def Info: wolf_sammenlign.pdf  used on input line 142. on input 
-line 142.
+Package pdftex.def Info: wolf_sammenlign.pdf  used on input line 113. on input 
+line 113.
 Package pdftex.def Info: Requested size: 272.99881pt x 273.00412pt on input lin
-e 142.
+e 113.
  [6 <./wolf_sex.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 151.
+(caption)                particular \caption on input line 122.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--173
+Underfull \hbox (badness 10000) in paragraph at lines 138--144
 
  []
 
 [7 <./wolf_sammenlign.pdf>]
-<LETT.pdf, id=89, pagebox=cropbox, 505.89pt x 505.89pt>
+<LETT.pdf, id=92, pagebox=cropbox, 505.89pt x 505.89pt>
 File: LETT.pdf Graphic file (type pdf)
 <use LETT.pdf>
-Package pdftex.def Info: LETT.pdf  used on input line 180. on input line 180.
-Package pdftex.def Info: Requested size: 195.0pt x 195.00368pt on input line 18
-0.
-<TUNGT.pdf, id=90, pagebox=cropbox, 505.89pt x 505.89pt>
+Package pdftex.def Info: LETT.pdf  used on input line 151. on input line 151.
+Package pdftex.def Info: Requested size: 195.0pt x 195.00368pt on input line 15
+1.
+<TUNGT.pdf, id=93, pagebox=cropbox, 505.89pt x 505.89pt>
 File: TUNGT.pdf Graphic file (type pdf)
 <use TUNGT.pdf>
-Package pdftex.def Info: TUNGT.pdf  used on input line 186. on input line 186.
-Package pdftex.def Info: Requested size: 195.0pt x 195.00368pt on input line 18
-6.
+Package pdftex.def Info: TUNGT.pdf  used on input line 157. on input line 157.
+Package pdftex.def Info: Requested size: 195.0pt x 195.00368pt on input line 15
+7.
 
-Overfull \hbox (5.22217pt too wide) in paragraph at lines 178--189
+Overfull \hbox (5.22217pt too wide) in paragraph at lines 149--160
  []$[]$  $[]$ 
  []
 
 [8 <./LETT.pdf> <./TUNGT.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 233.
+(caption)                particular \caption on input line 204.
 See the caption package documentation for explanation.
 
-<3B.pdf, id=113, pagebox=cropbox, 481.8pt x 481.8pt>
+<3B.pdf, id=116, pagebox=cropbox, 481.8pt x 481.8pt>
 File: 3B.pdf Graphic file (type pdf)
 <use 3B.pdf>
-Package pdftex.def Info: 3B.pdf  used on input line 252. on input line 252.
+Package pdftex.def Info: 3B.pdf  used on input line 223. on input line 223.
 Package pdftex.def Info: Requested size: 155.99762pt x 155.99501pt on input lin
-e 252.
-<3D.pdf, id=114, pagebox=cropbox, 481.8pt x 481.8pt>
+e 223.
+<3D.pdf, id=117, pagebox=cropbox, 481.8pt x 481.8pt>
 File: 3D.pdf Graphic file (type pdf)
 <use 3D.pdf>
-Package pdftex.def Info: 3D.pdf  used on input line 269. on input line 269.
+Package pdftex.def Info: 3D.pdf  used on input line 240. on input line 240.
 Package pdftex.def Info: Requested size: 272.99881pt x 273.00412pt on input lin
-e 269.
+e 240.
 [9 <./3B.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 280.
+(caption)                particular \caption on input line 251.
 See the caption package documentation for explanation.
 
 [10 <./3D.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 303.
+(caption)                particular \caption on input line 274.
 See the caption package documentation for explanation.
 
-<3H.pdf, id=135, pagebox=cropbox, 481.8pt x 481.8pt>
+<3H.pdf, id=138, pagebox=cropbox, 481.8pt x 481.8pt>
 File: 3H.pdf Graphic file (type pdf)
 <use 3H.pdf>
-Package pdftex.def Info: 3H.pdf  used on input line 323. on input line 323.
+Package pdftex.def Info: 3H.pdf  used on input line 294. on input line 294.
 Package pdftex.def Info: Requested size: 272.99881pt x 273.00412pt on input lin
-e 323.
+e 294.
 [11 <./3H.pdf>]
 (/home/mikael/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (76.83403pt too wide) in paragraph at lines 369--370
+Overfull \hbox (76.83403pt too wide) in paragraph at lines 340--341
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (17.55351pt too wide) in paragraph at lines 370--371
+Overfull \hbox (17.55351pt too wide) in paragraph at lines 341--342
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (76.83405pt too wide) in paragraph at lines 371--373
+Overfull \hbox (76.83405pt too wide) in paragraph at lines 342--344
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (39.7837pt too wide) in paragraph at lines 373--374
+Overfull \hbox (39.7837pt too wide) in paragraph at lines 344--345
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (39.78369pt too wide) in paragraph at lines 374--376
+Overfull \hbox (39.78369pt too wide) in paragraph at lines 345--347
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (39.7837pt too wide) in paragraph at lines 379--380
+Overfull \hbox (39.7837pt too wide) in paragraph at lines 350--351
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (39.78374pt too wide) in paragraph at lines 380--381
+Overfull \hbox (39.78374pt too wide) in paragraph at lines 351--352
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (39.78372pt too wide) in paragraph at lines 381--383
+Overfull \hbox (39.78372pt too wide) in paragraph at lines 352--354
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (262.0857pt too wide) in paragraph at lines 387--389
+Overfull \hbox (262.0857pt too wide) in paragraph at lines 358--360
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][] 
  []
 
 
-Overfull \hbox (10.1435pt too wide) in paragraph at lines 389--390
+Overfull \hbox (10.1435pt too wide) in paragraph at lines 360--361
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (180.57497pt too wide) in paragraph at lines 390--392
+Overfull \hbox (180.57497pt too wide) in paragraph at lines 361--363
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][] 
  []
@@ -2756,141 +2756,147 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 (/home/mikael/.miktex/texmfs/install/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (217.6253pt too wide) in paragraph at lines 408--409
+Overfull \hbox (217.6253pt too wide) in paragraph at lines 379--380
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (10665.81653pt too wide) in paragraph at lines 412--414
+Overfull \hbox (10665.81653pt too wide) in paragraph at lines 383--385
 [][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (54.60384pt too wide) in paragraph at lines 415--416
+Overfull \hbox (54.60384pt too wide) in paragraph at lines 386--387
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (47.19376pt too wide) in paragraph at lines 416--417
+Overfull \hbox (47.19376pt too wide) in paragraph at lines 387--388
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (10.14343pt too wide) in paragraph at lines 417--418
+Overfull \hbox (10.14343pt too wide) in paragraph at lines 388--389
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (76.83408pt too wide) in paragraph at lines 428--430
+Overfull \hbox (76.83408pt too wide) in paragraph at lines 399--401
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [13]
-Overfull \hbox (165.75485pt too wide) in paragraph at lines 446--447
+Overfull \hbox (165.75485pt too wide) in paragraph at lines 417--418
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (69.42398pt too wide) in paragraph at lines 468--469
+Overfull \hbox (69.42398pt too wide) in paragraph at lines 439--440
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
  []
 
 
-Overfull \hbox (10.14345pt too wide) in paragraph at lines 469--470
+Overfull \hbox (10.14345pt too wide) in paragraph at lines 440--441
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (69.42395pt too wide) in paragraph at lines 470--471
+Overfull \hbox (69.42395pt too wide) in paragraph at lines 441--442
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (69.42395pt too wide) in paragraph at lines 471--472
+Overfull \hbox (69.42395pt too wide) in paragraph at lines 442--443
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (69.42395pt too wide) in paragraph at lines 472--473
+Overfull \hbox (69.42395pt too wide) in paragraph at lines 443--444
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (69.42397pt too wide) in paragraph at lines 473--474
+Overfull \hbox (69.42397pt too wide) in paragraph at lines 444--445
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (10.14343pt too wide) in paragraph at lines 474--476
+Overfull \hbox (10.14343pt too wide) in paragraph at lines 445--447
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (47.19377pt too wide) in paragraph at lines 479--480
+Overfull \hbox (47.19377pt too wide) in paragraph at lines 450--451
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (47.19377pt too wide) in paragraph at lines 482--484
+Overfull \hbox (47.19377pt too wide) in paragraph at lines 453--455
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [14] [15]
-Overfull \hbox (195.39511pt too wide) in paragraph at lines 518--519
+Overfull \hbox (195.39511pt too wide) in paragraph at lines 489--490
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (99.06427pt too wide) in paragraph at lines 527--528
+Overfull \hbox (99.06427pt too wide) in paragraph at lines 498--499
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (99.06427pt too wide) in paragraph at lines 538--539
+Overfull \hbox (99.06427pt too wide) in paragraph at lines 509--510
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (2.73343pt too wide) in paragraph at lines 540--541
+Overfull \hbox (2.73343pt too wide) in paragraph at lines 511--512
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [16] 
 AED: lastpage setting LastPage
 [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 724.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 724.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 695.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 695.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 724.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 724.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 695.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 695.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F575326D5F31DF0EA941E70152E6A9ED;105.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 724.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 695.
  ) 
 Here is how much of TeX's memory you used:
- 40015 strings out of 495198
- 843673 string characters out of 3180954
- 1029814 words of memory out of 3000000
- 42629 multiletter control sequences out of 15000+200000
+ 40017 strings out of 495198
+ 843692 string characters out of 3180954
+ 1028669 words of memory out of 3000000
+ 42630 multiletter control sequences out of 15000+200000
  541857 words of font info for 68 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,9n,77p,10429b,2292s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb><
-/home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></h
-ome/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></h
-ome/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (17 pages, 342162 bytes).
+b></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+></home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></
+home/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></ho
+me/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home
+/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home
+/mikael/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (17 pages, 358590 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 214 named destinations out of 1000 (max. 500000)
  82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

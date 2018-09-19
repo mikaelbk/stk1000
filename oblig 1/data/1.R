@@ -20,3 +20,9 @@ dev.off()
 
 qqnorm(zebrafinch) #lager qq plot
 qqline(zebrafinch) #lager qq plot
+
+# får prosentil til 0.6
+pnorm(0.6, mean = mean(zebrafinch), sd = sd(zebrafinch))
+# får prosentil for 'ikke 0.6'. ie
+# ie. sannsynligheten for at en fink har mer enn 0.6 BMR
+1 - pnorm(1, mean = mean(zebrafinch), sd = sd(zebrafinch))
