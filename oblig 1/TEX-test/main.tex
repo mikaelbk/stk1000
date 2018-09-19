@@ -107,13 +107,23 @@ Ved å bruke kommandoene \texttt{pie(table(variabel))} i R får jeg et kakediagr
 Denne oppgaven løser jeg ved å bruke kommandoene \texttt{wolf.lett <- wolf[wolf[,"population"]==1,]} og \texttt{wolf.tungt <- wolf[wolf[,"population"]==2,]}, slik jeg ble fortalt i oppgaven.
 
 \subsection*{d}
+Her bruker jeg de følgende kommandoene:
 
+\begin{itemize}
+    \item \texttt{par(mfrow=c(2,2))}
+    \item \texttt{hist(wolf.lett)}
+    \item \texttt{boxplot(wolf.lett)}
+    \item \texttt{hist(wolf.tungt)}
+    \item \texttt{boxplot(wolf.tungt)}
+\end{itemize}
+Hvordan disse fungerer er kommentert i koden
 \begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{wolf_sammenlign.pdf}
-		\caption{a) Formen på histogramet minner om normalfordeling, men med litt for mange verdier høyt oppe. b) Formen minner mindre på en normalfordeling, men vi legger merke til at stolpene er tykkere enn for a) og at det ikke er like mange høye verdier. Forskjellen i verdier er høyere for lett enn tungt.}
+		\includegraphics[width=0.9\linewidth]{wolf_sammenlign.pdf}
+		\caption{Her er histogram og boxplott av kortisolkonsentrasjonen til ulv som har blitt lett jaktet (øverst) og tungt jaktet (nederst)}
 		\label{fig:sammenlign}
 \end{figure}
+Man kan se at ulv som har blitt tungt jaktet har høyere konsentrasjon av kortisol.
 
 \subsection*{e}
 
