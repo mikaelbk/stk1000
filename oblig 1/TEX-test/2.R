@@ -6,7 +6,7 @@ wolf <- read.table(data,header=TRUE)
 summary(wolf)
 
 #BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-# gjør klar et plot
+# gjor klar et plot
 png(file = "wolf_sex.pdf")
 # her lages det to kolonner
 par(mfrow=c(1,2)) 
@@ -24,9 +24,9 @@ wolf.lett <- wolf[wolf[,"population"]==1,]
 wolf.tungt <- wolf[wolf[,"population"]==2,]
 
 #DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-# gjør klar et plot
+# gjor klar et plot
 png(file = "wolf_sammenlign.pdf")
-# kommando som gjør at dette går fint
+# kommando som gjor at dette gaar fint
 par(mfrow=c(2,2))
 # plotter histogram av lett jaktet
 hist(wolf.lett$cpmg)
@@ -40,22 +40,22 @@ boxplot(wolf.tungt$cpmg)
 dev.off()
 
 #EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-# får gjennomsnitt for lett
+# faar gjennomsnitt for lett
 mean(wolf.lett$cpmg)
-# får medianen for lett
+# faar medianen for lett
 median(wolf.lett$cpmg)
-# får standardavvik for lett
+# faar standardavvik for lett
 sd(wolf.lett$cpmg)
-# får gjennomsnitt for tungt
+# faar gjennomsnitt for tungt
 mean(wolf.tungt$cpmg)
-# får gjennomsnitt for tungt
+# faar gjennomsnitt for tungt
 median(wolf.tungt$cpmg)
-# får standaravvik for tungt
+# faar standaravvik for tungt
 sd(wolf.tungt$cpmg)
 
 #GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 png(file = "TUNGT.pdf")
-# får qq plot av tungt jaktet
+# faar qq plot av tungt jaktet
 qqnorm(wolf.tungt$cpmg)
 # teoretisk normalfordelt
 qqline(wolf.tungt$cpmg)
@@ -63,7 +63,7 @@ qqline(wolf.tungt$cpmg)
 dev.off()
 
 png(file = "LETT.pdf")
-# får qq plot av lett jaktet
+# faar qq plot av lett jaktet
 qqnorm(wolf.lett$cpmg)
 # teoretisk normalfordelt
 qqline(wolf.lett$cpmg)

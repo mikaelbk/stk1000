@@ -18,10 +18,10 @@
 \subsection*{a}
 Her er et histogram av BMR verdiene til sebrafinkene. Histogrammet ser normalfordelt ut, med en god del sebrafinker som har en BMR verdi nær gjennomsnittet og et kraftig avtagende antall finker jo lenger man går vekk fra gjennomsnittet. 
 \begin{figure}[H]
-		\centering
-		\includegraphics[width=0.9\linewidth]{zebrafish.pdf}
-		\caption{Histogram av BMR-verdiene til 150 zebrafisker}
-		\label{fig:histogram}
+        \centering
+        \includegraphics[width=0.9\linewidth]{zebrafish.pdf}
+        \caption{Histogram av BMR-verdiene til 150 zebrafisker}
+        \label{fig:histogram}
 \end{figure}
 
 
@@ -47,10 +47,10 @@ Ved å bruke kommandoen \texttt{IQR} i R får jeg inter-kvartil og \texttt{sd} g
 Ved å bruke kommandoene \texttt{qqnorm()} i R får jeg inter-kvartil og \texttt{sd()} gir meg standardavvik.
 
 \begin{figure}[H]
-		\centering
-		\includegraphics[width=0.9\linewidth]{Rplots.pdf}
-		\caption{Figuren viser målte verdier mot standardavviket vi fikk tidligere i oppgaven}
-		\label{fig:QQ}
+        \centering
+        \includegraphics[width=0.9\linewidth]{Rplots.pdf}
+        \caption{Figuren viser målte verdier mot standardavviket vi fikk tidligere i oppgaven}
+        \label{fig:QQ}
 \end{figure}
 Plottet indikerer hvordan de målte verdiene har fordelt seg i forhold til standardavviket. Igjen ser man at de fleste datapunktene legger seg rundt gjennomsnittet, men i tillegg får man et inntrykk av hvordan målverdiene avviker fra den teoretiske perfekte normalfordelingen (over eller under den lineære funksjonen). Man kan se at dataen passer ganske bra til en normalfordeling.
 
@@ -96,10 +96,10 @@ Kategoriske variabler er alltid medlemmer av et gitt sett av mulige verdier. Inn
 Ved å bruke kommandoene \texttt{pie(table(variabel))} i R får jeg et kakediagram over de kategoriske variablene. 
 
 \begin{figure}[H]
-		\centering
-		\includegraphics[width=0.7\linewidth]{wolf_sex.png}
-		\caption{kjønnsfordelingen blandt ulvepopulasjonen er svært jevnt fordelt, hvilket nesten alltid er tilfellet pga naturlig seleksjon. Omtrent to tredeler er tungt jaktet}
-		\label{fig:sex_population}
+        \centering
+        \includegraphics[width=0.7\linewidth]{wolf_sex.png}
+        \caption{kjønnsfordelingen blandt ulvepopulasjonen er svært jevnt fordelt, hvilket nesten alltid er tilfellet pga naturlig seleksjon. Omtrent to tredeler er tungt jaktet}
+        \label{fig:sex_population}
 \end{figure}
 
 \subsection*{c}
@@ -118,10 +118,10 @@ Her bruker jeg de følgende kommandoene:
 \end{itemize}
 Hvordan disse fungerer er kommentert i koden
 \begin{figure}[H]
-		\centering
-		\includegraphics[width=0.9\linewidth]{wolf_sammenlign.pdf}
-		\caption{Her er histogram og boxplott av kortisolkonsentrasjonen til ulv som har blitt lett jaktet (øverst) og tungt jaktet (nederst)}
-		\label{fig:sammenlign}
+        \centering
+        \includegraphics[width=0.9\linewidth]{wolf_sammenlign.pdf}
+        \caption{Her er histogram og boxplott av kortisolkonsentrasjonen til ulv som har blitt lett jaktet (øverst) og tungt jaktet (nederst)}
+        \label{fig:sammenlign}
 \end{figure}
 Man kan se at ulv som har blitt tungt jaktet har høyere konsentrasjon av kortisol.
 
@@ -138,7 +138,7 @@ I begge tilfeller er medianen mindre enn gjennomsnittet. Dette antydes også gje
          && Mean && Median && Standard deviation \\
     \hline
     \\
-        Lett   	&&     15.56222      &&      14.24      &&     7.298785       \\
+        Lett    &&     15.56222      &&      14.24      &&     7.298785       \\
         Tungt   &&     17.07495      &&      16.32      &&      5.543389       \\
     \hline
 \end{tabularx}
@@ -164,7 +164,7 @@ For å svare på spørsmålet må vi altså se på populasjon og avgjøre om de 
         \includegraphics[width=\linewidth]{TUNGT.pdf}
         \caption{Tungt jaktet ulv}
     \end{subfigure}
-    \caption{QQ plot over populasjonene}
+    \caption{QQ plot over kortisolnivå for populasjonene}
     \label{fig:2G}
 \end{figure}
 
@@ -175,76 +175,76 @@ Fra figur \ref{fig:2G} ser det ut til at tungt jaktet ulv er normalfordelt mens 
 
 \subsection*{a}
 
-150 kvinner og 73 menn deltok i forsøket! 
+I denne oppgaven bruker jeg kommandoen \texttt{summary()}
+
+150 kvinner og 73 menn deltok i forsøket
 
 \begin{center}
 \label{tab:summary}
-\captionof{table}{Tabellen viser en oversikt over femtallsoppsummeringen til de fire målingene i datasettet.}
+\captionof{table}{Fem-punkts oppsummering av de fire variablene}
 \begin{tabularx}{\textwidth}{c X c X c X c X c X c }
     \hline
     \hline
          && min && $Q_1$ && $\mu$ && $Q_3$ && max \\
     \hline
-    kroppslengde   	&& 152.0 && 166.0 && 172.3 && 178.0 && 196.0 \\
-    fot.navle    	&&  87.0 && 101.0 && 104.8 && 109.0 && 125.0 \\
-    navle.isse	 	&& 52.00 && 65.00 && 67.34 && 70.00 && 81.00 \\
-    favn			&& 146.0 && 165.0 && 172.4 && 180.0 && 202.0 \\
+    kroppslengde    && 152.0 && 166.0 && 172.3 && 178.0 && 196.0 \\
+    fot.navle       &&  87.0 && 101.0 && 104.8 && 109.0 && 125.0 \\
+    navle.isse      && 52.00 && 65.00 && 67.34 && 70.00 && 81.00 \\
+    favn            && 146.0 && 165.0 && 172.4 && 180.0 && 202.0 \\
 
     \hline
 \end{tabularx}
 \end{center}
 
 \subsection*{b}
+I denne oppgaven bruker jeg kommandoen \texttt{plot()} i for å lage et spredningsplot. 
 
 \begin{figure}[H]
-		\centering
-		\includegraphics[width=0.4\linewidth]{3B.pdf}
-		\caption{Figuren viser kroppshøyde som funksjon av navlelengde. En skulle nesten tro at det var en høy korrelasjon mellom disse to variablene.}
-		\label{fig:3B}
+        \centering
+        \includegraphics[width=0.9\linewidth]{3B.pdf}
+        \caption{Her er et plot av kroppslengde som funksjon av navlehøyde}
+        \label{fig:3B}
 \end{figure}
-
-
+Man kan se at det er høy korrelasjon mellom kroppslengde og navlehøyde
 
 \subsection*{c}
-Ooooo, ser man det! Det var en høy korrelasjon mellom de.
-cor funksjonen gir 0.9140397. Det vil si at høyden til et menneske er høyt avhengig av høyden til navlen for det mennesket. 
+I denne oppgaven bruker jeg kommandoen \texttt{cor()} for å få korrelasjonen. En korrelasjon på 0.9140397 antyder igjen at det er en god sammenheng mellom kroppslengde og navlehøyde.
 
 \subsection*{d}
-Jeg tok meg friheten til å skifte på koden gitt i obligen, slik at programmet mitt kjørte. 
-
+Her er koden justert litt i forhold til det som ble oppgitt i oppgaveteksten
 
 \begin{figure}[H]
-		\centering
-		\includegraphics[width=0.7\linewidth]{3D.pdf}
-		\caption{Dette ser jo bra ut. }
-		\label{fig:3D}
+        \centering
+        \includegraphics[width=0.9\linewidth]{3D.pdf}
+        \caption{Lineær regresjon utført på kroppslengde som funksjon av navlehøyde}
+        \label{fig:3D}
 \end{figure}
 
 
 \subsection*{e}
-Summary funket dårlig. Jeg brukte print(fit) for å fastslå koeffisientene til modellen. Hvis navlehøyden øker med en cm øker høyden med 1.273 cm.
 
 \begin{center}
 \label{tab:e}
-\captionof{table}{Coefficients for the linear model}
+\captionof{table}{Koeffisienter for modellen}
 \begin{tabularx}{\textwidth}{c X c X c }
     \hline
     \hline
-        Coefficients && a && b\\
+        Koeffisienter && a && b\\
     \hline
-				   	&& 38.897 && 1.273\\
+                    && 38.897 && 1.273\\
     \hline
 \end{tabularx}
 \end{center}
 
+I denne oppgaven brukte jeg \texttt{print(fit)} for å få ut koeffisientene til den lineære tilpasningen av funksjonen. Det ser ut til at en økning på navlehøyde med én cm vil, i gjennomsnitt, føre til en høydeøkning på 1.273 cm. Stigningstallet er mer enn én, men fortsatt en konstant verdi (pga. den lineære tilpasningen).
+
 \subsection*{f}
-Kroppshøyden til en person med navlehøyde på 121 cm vil med modellen min bli predikert til 192.93 cm. 
+Her er det rett og slett å bare ta produktet med det lineære forholdet vi fant i forrige oppgave mens man husker på å inkludere verdien hvor den lineære funksjonen skjærer y aksen. Altså funksjonsverdien til den lineære funksjonen med riktige koeffisienter a og b
 
 \begin{align*}
-	f(121)= a + b*x = 192.93
+    f(121)= a + bx = 192.93
 \end{align*}
 
-\pagebreak
 \subsection*{g}
 
 \begin{center}
@@ -255,419 +255,37 @@ Kroppshøyden til en person med navlehøyde på 121 cm vil med modellen min bli 
     \hline
          && min && $Q_1$ && $\mu$ && $Q_3$ && max \\
     \hline
-    kroppslengde   	&& 152.0 && 166.0 && 172.3 && 178.0 && 196.0 \\
-    fot.navle    	&&  87.0 && 101.0 && 104.8 && 109.0 && 125.0 \\
-    navle.isse	 	&& 52.00 && 65.00 && 67.34 && 70.00 && 81.00 \\
-    favn			&& 146.0 && 165.0 && 172.4 && 180.0 && 202.0 \\
+    kroppslengde    && 152.0 && 166.0 && 172.3 && 178.0 && 196.0 \\
+    fot.navle       &&  87.0 && 101.0 && 104.8 && 109.0 && 125.0 \\
+    navle.isse      && 52.00 && 65.00 && 67.34 && 70.00 && 81.00 \\
+    favn            && 146.0 && 165.0 && 172.4 && 180.0 && 202.0 \\
 
     \hline
 \end{tabularx}
 \end{center}
-
+Fra tabellen kan man se at det er en viss andel av variasjonen i kroppslengde som forklares av navlehøyde. Dette samsvarer godt med det vi fant ut i forrige oppgave. 
 
 \subsection*{h}
 
 \begin{figure}[H]
-		\centering
-		\includegraphics[width=0.7\linewidth]{3H.pdf}
-		\caption{...}
-		\label{fig:3H}
+        \centering
+        \includegraphics[width=0.7\linewidth]{3H.pdf}
+        \caption{Plott over residualene av navlehøyde i forhold til den lineære modellen}
+        \label{fig:3H}
 \end{figure}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Det vil alltid være noen uteligger for enhver rimelig regresjonstilpasning. Her ser det ut til at residualene er nogelunde jevnt fordelt, hvilket kan være et godt tegn. Mange datapunkter som ligger enten over eller under modellen vil aldri være tilfellet ettersom regresjonstilpasningen ville justert for dette. Det man kan prøve å se etter, derimot, er om det ser ut til at residualene følger en systematisk trend som ikke er jevnt fordelt. For eksempel, hvis man prøver en lineær tilpasning på et andregradspolynom, ville man kanskje sett at datapunktene i midten ligger under det modellen skulle tilsi mens datapunktene lenger ut ligger over. Men, som sagt, dette ser ikke ut til å være tilfellet her.
 
 \pagebreak
 
 \section*{Appendix}
-
-
-\begin{lstlisting}[language=python]
-
-#OPPGAVE 1
-from matplotlib.pyplot import *			#import av shit
-from numpy import *			#import av shit
-import scipy.integrate as integrate		#import av shit
-
-infile = open("data.txt","r")			#aapne fil
-infile.readline()				#aapne fil
-
-x = []				#tomme lister
-hist_list = []			#tomme lister
-for line in infile.readlines():		#leser fil
-	words = line.split(" ")			#leser fil
-	hist_list.append(float(words[1]))	#leser fil
-	x.append(int(eval(words[0])))		#leser fil
-
-s = std(hist_list) 	#standard deviation
-m = mean(hist_list) #gjennomsnitt
-
-def gaussian(x,s=s,m=m):#gaussian funksjon
-	return (1/(sqrt(2*pi)*s))*exp(-0.5*((x-m)/s)**2) #formelen for gaussianfordeling
-
-def integral(fra=0,til=100,func = gaussian): #funksjon
-	return integrate.quad(func,fra,til)[0]	#numpy sin integrate funksjon
-
-if __name__ == '__main__':
-	print(integral(0,0.6))	#INTEGRAL
-	print(integral(1,100))	#INTEGRAL
-	print(integral(0,100))	#INTEGRAL
-\end{lstlisting}
-
-
-
-
-
-
-
-
-\pagebreak
-\begin{lstlisting}[language=R]
-#OPPGAVE 1
-# data = "http://www.uio.no/studier/emner/matnat/math/STK1000/data/zebrafinch.txt"
-# zebrafinch <- read.table(data,header=TRUE)
-
-# Create data for the graph.
-zebrafinch <- c(0.7562718,0.7841234,0.8535867,0.82394,0.7804905,0.9630961,0.7417845,1.120064,0.8024751,0.8214675,0.7309519,0.8019651,0.9097601,0.7601681,0.8390591,0.9248859,0.8352816,0.7319939,0.7930914,0.7457873,1.002192,0.8628477,1.028025,0.7402723,0.9129746,0.7300062,0.8572898,0.8500707,0.7334023,0.7144842,0.984181,0.8167179,0.8441634,0.8281507,0.6719701,0.8034057,1.11701,1.007286,0.8168411,0.7305809,0.9279448,0.8405102,0.7958567,0.9990197,1.007542,0.6806091,0.8384404,0.8711419,0.7179686,0.9287494,0.8619765,0.8309871,0.5787197,0.7416669,0.8040855,0.8081294,0.907542,0.8482643,0.8560268,0.8655504,1.172754,0.9761892,0.8843472,0.9139844,0.5186183,0.9385081,0.9074842,0.9329575,1.090915,0.7363603,0.8898355,0.8577158,1.025406,0.6654378,0.6658608,0.6768501,0.9794527,0.8301966,0.8290008,0.8836586,0.8157841,0.964259,0.9287292,0.9011676,0.7669517,0.7306965,0.9245895,0.9635717,0.7862857,0.8990346,0.7850173,0.8521878,0.7135978,0.8522143,0.8528686,0.9675156,0.6637724,0.8162315,0.9481493,0.867313,0.936353,0.986539,0.8309639,0.7233021,1.044636,0.6885234,0.9870739,0.7755702,0.7006348,0.8671587,1.109845,0.9798947,0.8143468,0.8347534,0.8840403,0.7789924,0.7760159,0.8019032,0.6420586,0.8729059,0.8722336,0.7732556,0.9370564,0.8527847,0.9538383,0.8060772,0.7286053,0.8899104,0.7440977,0.9768809,1.050496,0.5891953,0.8203677,0.8185292,0.7594463,0.8304673,0.9525384,0.966009,0.8968909,0.9481618,0.738298,0.7978259,0.7972277,0.6588164,0.9295452,1.002859,0.9822667,0.8677425,0.8259351,0.8138577)
-
-#sum(zebrafinch/150)
-mean(zebrafinch)			#AVERAGE = 0.8485003
-sd(zebrafinch)				#Standard deviation
-IQR(zebrafinch)				#Interquartile
-median(zebrafinch)			#MEDIAN
-
-# Standardiserte verdien til 0.8 er lik:
-print((0.8-mean(zebrafinch))/sd(zebrafinch))
-#-0.4276918 standardavvik til normalfordelingen
-
-
-# Give the chart file a name.
-png(file = "zebrafish.pdf")
-# Create the histogram.
-hist(zebrafinch,xlab = "Weight",col = "yellow",border = "blue")
-
-# Save the file.
-dev.off()
-
-
-qqnorm(zebrafinch) #lager qq plot
-qqline(zebrafinch) #lager qq plot
-# pnorm(zebrafinch) #NEI TAKK
-\end{lstlisting}
-
-
-
-\pagebreak
-\begin{lstlisting}[language=R]
-#OPPGAVE 2222222222222222222222222222222222222222
-
-#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-data ="http://www.uio.no/studier/emner/matnat/math/STK1000/data/wolves.txt"
-wolf <- read.table(data,header=TRUE)
-# print(c(wolf))
-# print(wolf$sex)
-# print(wolf$population)
-# print(wolf$tpmg)
-# print(wolf$cpmg)
-
-#BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-# Give the chart file a name.
-png(file = "wolf_sex.png")
-par(mfrow=c(1,2)) #MAKING TWO COLUMNS
-pie(table(wolf$sex))# Create the histogram.
-pie(table(wolf$population))# Create the histogram.
-dev.off()# Save the file.
-
-#CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-#NOT MY IDEA!
-wolf.lett <- wolf[wolf[,"population"]==1,]
-wolf.tungt <- wolf[wolf[,"population"]==2,]
-
-#DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-png(file = "wolf_sammenlign.png")		#was told this
-par(mfrow=c(2,2))			#was told this
-hist(wolf.lett$cpmg)				#was told this
-boxplot(wolf.lett$cpmg)				#was told this
-hist(wolf.tungt$cpmg)				#was told this
-boxplot(wolf.tungt$cpmg)			#was told this
-dev.off()				#was told this
-
-#EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-mean(wolf.lett$cpmg)		#average
-median(wolf.lett$cpmg)		#median
-sd(wolf.lett$cpmg)			#Standard deviation
-mean(wolf.tungt$cpmg)		#average
-median(wolf.tungt$cpmg)		#median
-sd(wolf.tungt$cpmg)			#Standard deviation
-
-#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-#EHM tekst... 
-
-#GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-qqnorm(wolf.tungt$cpmg)		#QQ plot
-qqline(wolf.tungt$cpmg)		#QQ plot
-qqnorm(wolf.lett$cpmg)		#QQ plot
-qqline(wolf.lett$cpmg)		#QQ plot
-\end{lstlisting}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\pagebreak
-\begin{lstlisting}[language=R]
-#OPPGAVE 333333333333333333333333333
-
-data = "http://www.uio.no/studier/emner/matnat/math/STK1000/data/vitruvisk.txt"
-vitruvisk <- read.table(data,header=TRUE)
-
-#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-summary(vitruvisk)
-
-#BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-# Give the chart file a name.
-png(file = "3B.pdf")
-plot(vitruvisk$fot.navle,vitruvisk$kroppslengde,xlab="navlehoyde",
-ylab="kroppslengde")
-# Save the file.
-dev.off()
-
-#CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-cor(vitruvisk$fot.navle,vitruvisk$kroppslengde)
-
-#DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-# Give the chart file a name.
-png(file = "3D.pdf")
-plot(vitruvisk$fot.navle,vitruvisk$kroppslengde,xlab="navlehoyde",
-ylab="kroppslengde")
-fit <- lm(kroppslengde ~ fot.navle,data =  vitruvisk)
-abline(fit)
-
-# Save the file.
-dev.off()
-
-#EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-summary(fit)
-print(fit)
-
-#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-print(38.897 + 121*1.273)
-
-#GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-summary(vitruvisk)
-
-#HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-png(file = "3H.pdf")
-plot(vitruvisk$fot.navle,residuals(fit))
-abline(h=0)
-# Save the file.
-dev.off()
-\end{lstlisting}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%\begin{align*}
-%&n \qquad &2^n - (-1)^n\\
-%&n+1 \qquad &2^{n+1} - (-1)^{n+1} \\
-%& &= 2(2^{n}) - (-1)^{n+1}\\
-%& &= 2(2^{n} + (-1)^n  + (-1)^{n+1}) - (-1)^{n+1}\\
-%& &= 2(2^{n} + (-1)^n  - (-1)^{n}) - (-1)^{n+1}\\
-%& &= 2(2^{n}- (-1)^{n}) + 2(-1)^n  + (-1)^{n}\\
-%& &= 2(2^{n}- (-1)^{n}) + 3(-1)^n \\
-%\end{align*}
-
-
-
-% \begin{figure}[H]
-%     \centering
-%     \begin{subfigure}{0.5\textwidth}
-%         \centering
-%         \includegraphics[width=\linewidth]{result/bilder/Tc/e-Tc}
-%         \caption{}
-%     \end{subfigure}%
-%     ~
-%     \begin{subfigure}{0.5\textwidth}
-%         \centering
-%         \includegraphics[width=\linewidth]{result/bilder/Tc/m-Tc}
-%         \caption{}
-%     \end{subfigure}
-%     \caption{a) Shows how E behaves around $T_C$ b) Shows how |M| develops near $T_C$.}
-%     \label{fig:tc-E-M}
-% \end{figure}
-
-
-
-
-
-
-% \begin{center}
-% \label{tab:states-2x2-summary}
-% \captionof{table}{The table shows a summary from table \ref{tab:states-2x2}. }
-% \begin{tabularx}{\textwidth}{c X c X c X c}
-%     \hline
-%     \hline
-%         Number of $\color{red}{\uparrow}$ && Multiplicity && Energy && Magnetic moment \\
-%     \hline
-%         4   &&      1      &&      -8J     &&       4       \\
-%         3   &&      4      &&      0J      &&       2       \\
-%         2   &&      2      &&      8J      &&       0       \\
-%         2   &&      4      &&      0J      &&       0       \\
-%         1   &&      4      &&      0J      &&       -2      \\
-%         0   &&      1      &&      -8J     &&       -4      \\
-%     \hline
-% \end{tabularx}
-% \end{center}
-
-
-
-
-
-
-
-
-
-
-
-
-
-%\begin{tabular}{|c|c|c|c|c|c|c|}
-%	\hline
-%	n & General & Specific & LU & fastest & slowest & $\frac{slowest}{fastest}$\\
-%	\hline
-%	10 & 6.5e-05 & 5e-06 & 4e-05 & Specific & General & 13.0\\
-%	\hline
-%	100 & 7.5e-05 & 8e-06 & 0.0023 & Specific & LU & 287.5\\
-%	\hline
-%	1000 & 0.00014 & 4e-05 & 0.26 & Specific & LU & 6500\\
-%	\hline
-%	10000 & 0.0007 & 0.0005 & 142.5 & Specific & LU & 285000 \\
-%	\hline
-%\end{tabular}
-
-
-
-
-
-
-
-%\begin{figure}[H]
-%		\centering
-%		\includegraphics[width=0.7\linewidth]{ab.png}
-%		\caption{Atomene er gule kuler, de elementære vektorene er blå og a vektorene er grønne.}
-%		\label{fig:ab}
-%\end{figure}
-
-
-
-%\begin{figure}[H]
-%		\centering
-%		\includegraphics[width=0.7\linewidth]{ab.png}
-%		\caption{Atomene er gule kuler, de elementære vektorene er blå og a vektorene er grønne.}
-%		\label{fig:ab}
-%\end{figure}
-%\printbibliography
-
-
-
-
-
-
-%\begin{figure}[H]
-%    \centering
-%    \begin{subfigure}{0.5\textwidth}
-%        \centering
-%        \includegraphics[width=\linewidth]{maybe}
-%        \caption{}
-%    \end{subfigure}%
-%    ~
-%    \begin{subfigure}{0.5\textwidth}
-%        \centering
-%        \includegraphics[width=\linewidth]{maybe2}
-%        \caption{}
-%    \end{subfigure}%
-%    \caption{a) is probably wrong and b) is right? If not i am not sure what to comment. No matter what. I am not sure what to comment. Cause b) should be wrong. The code above produces a). Setting kb to 1 gives b)}
-%\end{figure}
-
-
-
-
-
-
-
-
-%\begin{align*}
-%	J (x,y)=
-%	\begin{bmatrix}
-%		12x^2 & 1\\
-%		1 & 2
-%	\end{bmatrix}
-%\end{align*}
-
-
+\subsection{Oppgave 1}
+\lstinputlisting[language=R]{1.R}
+\newpage
+\subsection{Oppgave 2}
+\lstinputlisting[language=R]{2.R}
+\newpage
+\subsection{Oppgave 3}
+\lstinputlisting[language=R]{3.R}
 
 \end{document}
