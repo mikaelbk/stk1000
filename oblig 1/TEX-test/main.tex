@@ -127,9 +127,11 @@ Man kan se at ulv som har blitt tungt jaktet har høyere konsentrasjon av kortis
 
 \subsection*{e}
 
+I begge tilfeller er medianen mindre enn gjennomsnittet. Dette antydes også gjennom histogrammene
+
 \begin{center}
 \label{tab:mean_median_standard}
-\captionof{table}{Vi ser det jeg sa i forrige oppgave. SD er mindre for tungt enn for lett. Gjennomsnittet er lavere for lett, men dette gjør at du for et høyere standardavvik (pga de høye verdiene vi så i figur \ref{fig:sammenlign} a))}
+\captionof{table}{Tabell over gjennomsnitt, median og standardavvik}
 \begin{tabularx}{\textwidth}{c X c X c X c }
     \hline
     \hline
@@ -144,13 +146,8 @@ Man kan se at ulv som har blitt tungt jaktet har høyere konsentrasjon av kortis
 
 
 \subsection*{f}
-
-FEMTALLS: min,Q$_1$,$\mu$,Q$_3$,max
-\\
-Gjennomsnitt og standardavvik: $\mu \land \sigma$
-\\
-\\
-Vel, er ikke dette dumt å spørre om før vi har gjort g? Hvis dataen ligner på en normalfordeling burde en bruke gjennomsnitt og standardavvik. Hvis det er en jevn fordeling, så er det bedre med femtallsoppsummering. 
+For normalfordelte datasett holder det å oppgi gjennomsnitt og standardavvik for å tilstrekkelig beskrive fordelingen. I andre tilfeller trenger man mer informasjon og da kan det være nyttig å bruke en femtallsoppsummering som i tillegg gir minimumverdi, maximumverdi og kvartiler.
+For å svare på spørsmålet må vi altså se på populasjon og avgjøre om de er normalfordelt eller ikke
 
 \subsection*{g}
 
@@ -159,48 +156,19 @@ Vel, er ikke dette dumt å spørre om før vi har gjort g? Hvis dataen ligner p�
     \begin{subfigure}{0.5\textwidth}
         \centering
         \includegraphics[width=\linewidth]{LETT.pdf}
-        \caption{}
+        \caption{Lett jaktet ulv}
     \end{subfigure}%
     ~
     \begin{subfigure}{0.5\textwidth}
         \centering
         \includegraphics[width=\linewidth]{TUNGT.pdf}
-        \caption{}
+        \caption{Tungt jaktet ulv}
     \end{subfigure}
-    \caption{a) Datapunktene ser jevnt fordelt ut over x-verdien. Datapunktene ligger ikke spesielt bra på linjen. b) Datapunktene ser ikke jevnt fordelt ut over x-verdien. Det er en større andel som ligger mot x = 0. Majoriteten til datapunktene ligger bra på linjen. }
+    \caption{QQ plot over populasjonene}
     \label{fig:2G}
 \end{figure}
 
-Fra figur \ref{fig:2G} ser det ut til at tungt er normalfordelt. Lett ser ikke ut til å være det. Ergo; femtallsoppsummering for lett og gjennomsnitt og standardavvik for tungt. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Fra figur \ref{fig:2G} ser det ut til at tungt jaktet ulv er normalfordelt mens lett jaktet ulv ikke er det. Altså kan en bruke gjennomsnitt og standardavvik for å tilstrekkelig beskrive den tungt jaktede populasjonen mens for den lett jaktede populasjonen bør man bruke femtallsoppsummering.
 
 \pagebreak
 \section{}
